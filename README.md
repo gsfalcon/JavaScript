@@ -1,5 +1,5 @@
-# javascript
- Alguns projetos e exercícios de programação JavaScript em geral
+# JavaScript
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTEzNTQ1Ml19
+eyJoaXN0b3J5IjpbLTEyMzY4NzMwNDBdfQ==
 -->
