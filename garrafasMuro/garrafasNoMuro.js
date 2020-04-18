@@ -4,7 +4,7 @@ var contador = Number(prompt("QUAL A CONTAGEM INICIAL?\nmax: 5000")) //Insira o 
         contador = 5000; //Limitador do contador em 5000 para evitar travamentos
         }
 
-        if (contador <= 0){ //Limitadora do contador para números menores ou iguais a zero 0
+        if (contador <= 0){ //Limitadora do contador para números menores ou iguais a zero (0)
         document.write("Insira um valor MAIOR QUE ZERO para começar a brincadeira.<br>Aperte F5 para recarregar a página!")
         }
 
