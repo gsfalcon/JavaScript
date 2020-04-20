@@ -4,13 +4,17 @@ var contador = Number(prompt("QUAL A CONTAGEM INICIAL?\nmax: 5000")) //Insira o 
         contador = 5000; //Limitador do contador em 5000 para evitar travamentos
         }
 
-        if (contador <= 0){ //Limitadora do contador para números menores ou iguais a zero
+        if (contador <= 0){ //Limitadora do contador para números menores ou iguais a zero (0)
         document.write("Insira um valor MAIOR QUE ZERO para começar a brincadeira.<br>Aperte F5 para recarregar a página!")
         }
 
     while (contador > 0) {
         if (contador != 1) {
+<<<<<<< HEAD
         document.write(contador + " " + palavra + "s" + " de cerveja no muro.<br>") //Texto no plural e no singular com if, nem sempre vai funcionar, mas para este exercício, vai funcionar
+=======
+        document.write(contador + " " + palavra + "s" + " de cerveja no muro.<br>") //Texto no plural e no singular com ifs
+>>>>>>> f48960a4b1e38be56047f57b8988c2e8baf6d75a
         }
 
         if (contador != 1) {
