@@ -10,11 +10,11 @@ var contador = Number(prompt("QUAL A CONTAGEM INICIAL?\nmax: 5000")) //Insira o 
 
     while (contador > 0) {
         if (contador != 1) {
-<<<<<<< HEAD
+
         document.write(contador + " " + palavra + "s" + " de cerveja no muro.<br>") //Texto no plural e no singular com if, nem sempre vai funcionar, mas para este exercício, vai funcionar
-=======
+
         document.write(contador + " " + palavra + "s" + " de cerveja no muro.<br>") //Texto no plural e no singular com ifs
->>>>>>> f48960a4b1e38be56047f57b8988c2e8baf6d75a
+
         }
 
         if (contador != 1) {
