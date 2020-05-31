@@ -6,5 +6,7 @@ var senhaInserida = window.prompt("Digite a senha para continuar: ") //password 
         top.location.href = "error.html" //redirect to error page
     }
 
-/*Please, be aware that it is not safe to use JavaScript to protect web pages
+/*Please, be aware that it is not ok to use JavaScript to protect web pages
 JavaScript commands are executed in the browser after the page is already loaded. */ 
+
+//ok
