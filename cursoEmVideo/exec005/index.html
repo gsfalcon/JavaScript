@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventos DOM</title>
+  <style>
+    div#area {
+      background: aquamarine;
+      color: black;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align:center ;
+    }
+  </style>
+</head>
+<body>
+  <div id='area'
+  onclick="clicar()"
+  onmouseenter="entrar()"
+  onmouseout="sair()">
+    INTERAJA
+  </div>
+
+
+<script>
+  var a = window.document.getElementById('area')
+  function clicar() {
+    a.innerHTML = 'CLICOU!'
+    a.style.background = 'red'
+  }
+  function entrar() {
+    a.innerHTML = 'ENTROU!'
+    a.style.background = 'green'
+  }
+  function sair() {
+    a.innerHTML = 'SAIU!'
+    a.style.background = 'blue'
+}
+
+</script>
+
+
+
+</body>
+</html>
