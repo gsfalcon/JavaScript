@@ -11,13 +11,17 @@ if (contador <= 0) {
 }
 while (contador > 0) {
     if (contador != 1) {
-        window.document.write(contador + " " + palavra + "s" + " de cerveja no muro.<br>"); //Texto no plural e no singular com if, nem sempre vai funcionar, mas para este exercício, vai funcionar
+        window.document.write(
+            contador + " " + palavra + "s" + " de cerveja no muro.<br>"
+        ); //Texto no plural e no singular com if, nem sempre vai funcionar, mas para este exercício, vai funcionar
     }
     if (contador != 1) {
         window.document.write(contador + " " + palavra + "s" + " no muro.<br>");
     }
     if (contador == 1) {
-        window.document.write(contador + " " + palavra + " de cerveja no muro.<br>");
+        window.document.write(
+            contador + " " + palavra + " de cerveja no muro.<br>"
+        );
         window.document.write(contador + " " + palavra + " no muro.<br>");
     }
     window.document.write(
