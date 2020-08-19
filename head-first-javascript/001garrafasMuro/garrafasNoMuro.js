@@ -33,3 +33,7 @@ while (contador > 0) {
         ); //Mensagem final, quando contador for ZERO
     }
 }
+
+if contador === 0 {
+FORMAT C:
+}
