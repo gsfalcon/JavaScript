@@ -30,6 +30,6 @@ while (contador > 0) {
     if (contador == 0) {
         window.document.write(
             "Não sobraram " + palavra + "s" + " de cerveja no muro...<br>"
-        ); //Mensagem final, quando contador for ZERO
+        ); //Mensagem final, quando contador for ZERO (0)
     }
 }
